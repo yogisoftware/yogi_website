@@ -1,0 +1,94 @@
+body {
+  padding-top: 60px;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  background: #f7f7f7;
+}
+
+ .navbar .brand {
+  color: #b13638;
+  margin-top:5px;
+}
+.clear{
+  clear:both;
+}
+/*Sticky Footer Start*/
+html,body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -40px;
+  }
+#push{
+   height: 60px;
+}
+#footer {
+  border-top:1px solid #E5E5E5;
+  background-color:#eee;
+  padding:10px 0px;
+  height: 40px;
+
+}
+/*@font-face { font-family: "Delicious"; src: url('/assets/Delicious-Roman.otf'); }*/
+
+@font-face { font-family: "Deliciousbold"; font-weight: bold; src: url('../fonts/Delicious-Bold.otf'); }
+@font-face { font-family: "CaviarDreams"; src: url('../fonts/CaviarDreams.ttf'); }
+@font-face { font-family: "CaviarDreamsI"; src: url('../fonts/CaviarDreamsItalic.ttf'); }
+@font-face { font-family: "Angelina"; src: url('../fonts/angelina.ttf'); }
+@font-face { font-family: "notethis"; src: url('../fonts/Note_this.ttf'); }
+@font-face { font-family: "Droidsans"; src: url('../fonts/DroidSans.ttf'); }
+@font-face { font-family: "Droidsansbold"; src: url('../fonts/DroidSans-Bold.ttf'); }
+
+
+
+/* line 3, ../../app/assets/stylesheets/home.css.scss */
+.intro h2 {
+  font-size: 30px;
+  font-family: "Droidsans";
+  line-height: 36px;
+  color: #b13638;
+}
+/* line 9, ../../app/assets/stylesheets/home.css.scss */
+.intro .intro_text {
+  font-size: 25px;
+  font-family: "Droidsans";
+  line-height: 36px;
+  padding-left: 10px;
+}
+/* line 16, ../../app/assets/stylesheets/home.css.scss */
+.intro .slogan-text {
+  font-size: 21px;
+  font-family: "Droidsans";
+  line-height: 30px;
+  margin-bottom: 20px;
+  /*padding-left:10px;*/
+}
+/* line 25, ../../app/assets/stylesheets/home.css.scss */
+.intro .mvp-text {
+  color: #b13638;
+  font-size: 23px;
+}
+/* line 29, ../../app/assets/stylesheets/home.css.scss */
+.intro .get_in_touch {
+  margin-top: 20px;
+}
+
+/* line 36, ../../app/assets/stylesheets/home.css.scss */
+#contact_us h4 {
+  color: #b13638;
+  /*font-family: "notethis";*/
+}
+/* line 40, ../../app/assets/stylesheets/home.css.scss */
+#contact_us .address {
+  line-height: 34px;
+  font-size: 20px;
+  font-family: "Droidsans";
+}
+
